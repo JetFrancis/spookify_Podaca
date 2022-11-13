@@ -6,6 +6,22 @@ font-family: 'Poppins', sans-serif;
 :root {
   --spacer: 3rem;
   --box-shadow: 0.3rem 0.3rem 1.5rem rgb(0, 0, 0, 0.15);
+
+    /*Color*/
+  --Neutral White: #FFFAFB;
+  --Neutral Black: #050505;
+  -- Neutral Gray: #4A4A4A;
+  -- Primary: #24126A;
+  -- Primary Lighter: #3D2892;
+  -- Secondary: #1AC3C3;
+  -- Secondary Lighter: #16E0E0;
+  -- Accent: #F55D3A;
+
+  /*Font Size*/
+  --text-4: 64px;
+  --text-3: 32px;
+  --text-2: 28px;
+  --text-1: 18px;
 }
 
 /* Reset */
@@ -42,3 +58,8 @@ ol[class] {
 }
 /* Start Here */
 
+/*
+body {
+  padding: 25px 115px;
+}
+*/

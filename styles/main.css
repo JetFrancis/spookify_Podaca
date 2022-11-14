@@ -286,7 +286,7 @@ footer{
 }
 
 .authors{
-  padding: 50px 80px;
+  padding: 50px 70px;
 }
 
 .authors__headline{
@@ -349,3 +349,10 @@ footer{
 .footer__text--top-space{
   padding-top: 330px;
 }
+
+#signup-button:hover{
+  background-color: var(--Neutral-Black);
+  color: var(--Accent);
+}
+
+

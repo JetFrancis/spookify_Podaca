@@ -8,14 +8,14 @@ font-family: 'Poppins', sans-serif;
   --box-shadow: 0.3rem 0.3rem 1.5rem rgb(0, 0, 0, 0.15);
 
     /*Color*/
-  --Neutral White: #FFFAFB;
-  --Neutral Black: #050505;
-  -- Neutral Gray: #4A4A4A;
-  -- Primary: #24126A;
-  -- Primary Lighter: #3D2892;
-  -- Secondary: #1AC3C3;
-  -- Secondary Lighter: #16E0E0;
-  -- Accent: #F55D3A;
+  --Neutral-White: #FFFAFB;
+  --Neutral-Black: #050505;
+  --Neutral-Gray: #4A4A4A;
+  --Primary: #24126A;
+  --Primary-Lighter: #3D2892;
+  --Secondary: #1AC3C3;
+  --Secondary-Lighter: #16E0E0;
+  --Accent: #F55D3A;
 
   /*Font Size*/
   --text-4: 64px;
@@ -58,8 +58,283 @@ ol[class] {
 }
 /* Start Here */
 
-/*
-body {
-  padding: 25px 115px;
+
+header{
+  padding: auto;
+  margin: auto;
 }
-*/
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+img{
+  margin-bottom: 20px;
+}
+
+footer{
+  background-image: url(../images/Vector.png);
+  background-size: cover;
+  min-height: 60vh;
+  max-width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+input {
+   top: 40px;
+}
+
+body,
+.page__body,
+.story__img,
+footer{
+  position: relative;
+}
+
+.menu{
+  text-decoration: none;
+}
+
+.page{
+  margin:0px;
+}
+
+.headings_title,
+.wrap-footer__text{
+  font-size: var(--text-4);
+}
+
+.story__title{
+  font-size: 2.3rem;
+}
+
+.header__logo span,
+.headings_title,
+.story-more,
+.wrap-footer__text{
+  color: var(--Accent);
+}
+
+.header__logo,
+.menu__list,
+.story__title{
+  color: var(--Primary-Lighter);
+}
+
+.header__logo{
+  font-size: 2.6rem;
+}
+
+.header__logo,
+.menu__list{
+  padding: 2rem;
+}
+
+.page__header,
+.headings,
+#email,
+#submit,
+.footer__container{
+  position: absolute;
+}
+
+.header__menu,
+#signup-button, p{
+  font-size: var(--text-1);
+}
+
+.headings_title--uppercase{
+  text-transform: uppercase;
+}
+
+.header__navigation,
+.header__menu,
+.headings__wrapper,
+.authors__container,
+.wrap-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.page__header{
+  width: 100%;
+  padding: 20px 68px 0px 68px;
+  top: 20px;
+}
+
+.page__body{
+  padding: 90px 25px 60px 25px;
+}
+
+
+.headings{
+  width: 100%;
+  padding: 0px;
+  top: 200px;
+  left: 0px;
+}
+
+.headings__wrapper{
+  padding: 10px 100px;
+}
+
+#signup,
+#signup-button,
+#submit{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#signup-button,
+#submit{
+  padding: 1% 3%;
+  background-color: var(--Primary); 
+  color: var(--Neutral-White);
+  border-radius: 5px;
+  font-size: 1.8rem;
+  border: none;
+}
+
+#signup-button{
+  box-shadow: 1px 1px 50px #24126A;
+}
+
+#signup{
+  color: var(--Primary);
+}
+
+.story-more--shadow{
+  text-shadow: 1px 1px 50px #24126A
+}
+
+.subtitle_text{
+  font-weight: normal;
+  line-height: 50px;
+}
+
+.subtitle_text,
+#signup-button{
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+
+.stories__headline,
+.authors__headline,
+.subtitle_text{
+  font-size: var(--text-3);
+}
+
+.stories__headline,
+.authors__headline{
+  color: var(--Primary);
+  text-align: center;
+}
+
+.wrapper__head-text{
+  line-height: 5rem;
+  margin-top: -15%;
+}
+
+.wrap-story{
+  display: block;
+  align-content: center;
+}
+
+.stories{
+  margin-top: 50%;
+  padding: 0px 90px;
+}
+
+.stories__headline{
+  padding-bottom: 50px;
+}
+
+.story,
+.story__content{
+  text-align: justify;
+}
+
+.story{
+  display: flex;
+  padding: 100px;
+}
+
+.story__content--alignment01{
+  padding: 0px 0px 0px 150px;
+}
+
+.story__content--alignment02{
+  padding: 0px 150px 0px 0px;
+}
+
+.story__img{
+  z-index: 1;
+}
+
+.story__img--shadow-sunrise{
+  filter: drop-shadow(-8px -8px #F55D3A)
+}
+
+.story__img--shadow-ocean{
+  filter: drop-shadow(8px -8px #1AC3C3);
+}
+
+.story__title,
+.story__text{
+  padding-bottom: 25px;
+}
+
+.authors{
+  margin-top: 50px;
+}
+
+.author__name{
+  line-height: 50px;
+  color: var(--Accent);
+}
+
+.authors__container,
+.footer__text{
+  text-align: center;
+}
+
+.author__s-details,
+.story__text,
+.subtitle_text{
+  color: var(--Neutral-Gray);
+  font-family: 'Lora', serif;
+}
+
+.author__name{
+  font-size: var(--text-2);
+  color: var(--Primary);
+}
+
+.authors__container{
+  padding: 70px;
+}
+
+#email{
+  width: 285px;
+  left: 600px;
+  padding: 5px;
+}
+
+#submit{
+  left: 892px;
+  font-size: 13px;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+.footer__container{
+  top: 210px;
+  left: 150px;
+}
+
+.footer__text{
+  font-size: 15px;
+  text-align: center;
+  color: var(--Neutral-White);
+}

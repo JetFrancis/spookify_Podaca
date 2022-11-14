@@ -5,7 +5,7 @@ font-family: 'Poppins', sans-serif;
 
 :root {
   --spacer: 3rem;
-  --box-shadow: 0.3rem 0.3rem 1.5rem rgb(0, 0, 0, 0.15);
+  --box-shadow: 0.3rem 0.3rem 2.5rem rgb(0, 0, 0, 0.15);
 
     /*Color*/
   --Neutral-White: #FFFAFB;
@@ -179,8 +179,8 @@ footer{
   padding: 10px 100px;
 }
 
-#signup,
 #signup-button,
+#signup,
 #submit{
   font-weight: bold;
   text-decoration: none;
@@ -197,7 +197,7 @@ footer{
 }
 
 #signup-button{
-  box-shadow: 1px 1px 50px #24126A;
+  box-shadow: 1px 1px 20px #4A4A4A;
 }
 
 #signup{
@@ -205,7 +205,7 @@ footer{
 }
 
 .story-more--shadow{
-  text-shadow: 1px 1px 50px #24126A
+  text-shadow: 1px 1px 20px #4A4A4A
 }
 
 .subtitle_text{
@@ -243,7 +243,7 @@ footer{
 
 .stories{
   margin-top: 50%;
-  padding: 0px 90px;
+  padding: 0px 70px;
 }
 
 .stories__headline{
@@ -261,11 +261,11 @@ footer{
 }
 
 .story__content--alignment01{
-  padding: 0px 0px 0px 150px;
+  padding: 0px 0px 0px 125px;
 }
 
 .story__content--alignment02{
-  padding: 0px 150px 0px 0px;
+  padding: 0px 125px 0px 0px;
 }
 
 .story__img{
@@ -286,12 +286,19 @@ footer{
 }
 
 .authors{
-  margin-top: 50px;
+  padding: 50px 80px;
 }
 
-.author__name{
-  line-height: 50px;
-  color: var(--Accent);
+.authors__headline{
+  padding-bottom: 100px;
+}
+
+.author__name--line-height{
+  line-height: 80px;
+}
+
+.author__s-details--line-height{
+  line-height: 35px;
 }
 
 .authors__container,
@@ -308,7 +315,7 @@ footer{
 
 .author__name{
   font-size: var(--text-2);
-  color: var(--Primary);
+  color: var(--Accent);
 }
 
 .authors__container{
@@ -335,6 +342,5 @@ footer{
 
 .footer__text{
   font-size: 15px;
-  text-align: center;
   color: var(--Neutral-White);
 }
